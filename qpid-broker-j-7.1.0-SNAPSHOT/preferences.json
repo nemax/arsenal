@@ -1,0 +1,52 @@
+{
+  "version" : "7.0",
+  "preferences" : [ {
+    "id" : "4ea324d7-6413-4ba7-97d1-1aa2405fe20a",
+    "attributes" : {
+      "id" : "4ea324d7-6413-4ba7-97d1-1aa2405fe20a",
+      "name" : "Time Zone",
+      "type" : "X-TimeZone",
+      "description" : null,
+      "owner" : "guest@Plain('plain')",
+      "associatedObject" : "493ad04e-388f-4b1c-a784-244982c57fd4",
+      "visibilityList" : [ ],
+      "lastUpdatedDate" : 1533822208279,
+      "createdDate" : 1533822197287,
+      "value" : {
+        "timeZone" : "Asia/Shanghai"
+      }
+    }
+  }, {
+    "id" : "866f4026-1387-4323-83d1-91bcee0c6847",
+    "attributes" : {
+      "id" : "866f4026-1387-4323-83d1-91bcee0c6847",
+      "name" : "Time Zone",
+      "type" : "X-TimeZone",
+      "description" : null,
+      "owner" : "ANONYMOUS@Anonymous('Anonymous')",
+      "associatedObject" : "493ad04e-388f-4b1c-a784-244982c57fd4",
+      "visibilityList" : [ ],
+      "lastUpdatedDate" : 1534338453495,
+      "createdDate" : 1534338432339,
+      "value" : {
+        "timeZone" : "Asia/Shanghai"
+      }
+    }
+  }, {
+    "id" : "de98f313-7a8d-4eb3-88ef-f0a629437971",
+    "attributes" : {
+      "id" : "de98f313-7a8d-4eb3-88ef-f0a629437971",
+      "name" : "Update Period",
+      "type" : "X-UpdatePeriod",
+      "description" : null,
+      "owner" : "ANONYMOUS@Anonymous('Anonymous')",
+      "associatedObject" : "493ad04e-388f-4b1c-a784-244982c57fd4",
+      "visibilityList" : [ ],
+      "lastUpdatedDate" : 1534338453496,
+      "createdDate" : 1534338453496,
+      "value" : {
+        "updatePeriod" : 5
+      }
+    }
+  } ]
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="http://ehcache.org/ehcache.xsd">
+    <!--缓存持久化目录为运行目录下的.cache目录-->
+    <diskStore path=".cache" />
+
+    <!--默认配置-->
+    <defaultCache eternal="false" maxElementsInMemory="1000" overflowToDisk="false" diskPersistent="false"
+                  timeToIdleSeconds="0" timeToLiveSeconds="43200" memoryStoreEvictionPolicy="LRU" />
+
+    <!--缓存列表-->
+    <cache name="initializr.metadata" maxEntriesLocalHeap="200" timeToLiveSeconds="43200"></cache>
+    <cache name="initializr.dependency-metadata" maxEntriesLocalHeap="200" timeToLiveSeconds="43200"></cache>
+    <cache name="initializr.project-resources" maxEntriesLocalHeap="200" timeToLiveSeconds="43200"></cache>
+
+</ehcache>

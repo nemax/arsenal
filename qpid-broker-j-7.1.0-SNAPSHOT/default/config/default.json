@@ -1,0 +1,52 @@
+{
+  "id" : "917c2779-6c34-435b-90d1-71d70f6d10a2",
+  "type" : "BDB",
+  "name" : "default",
+  "modelVersion" : "7.0",
+  "lastUpdatedTime" : 1533819584055,
+  "createdTime" : 1533819584055,
+  "exchanges" : [ {
+    "id" : "f189ca31-ca48-439a-993c-12ab7d93f075",
+    "name" : "amq.direct",
+    "type" : "direct",
+    "lastUpdatedTime" : 1533819584055,
+    "createdTime" : 1533819584055
+  }, {
+    "id" : "506b4de8-909a-4266-8880-fc6e18291cb3",
+    "name" : "amq.fanout",
+    "type" : "fanout",
+    "lastUpdatedTime" : 1533819584055,
+    "createdTime" : 1533819584055
+  }, {
+    "id" : "d013fcca-7215-44ce-83be-efc5f5320ea8",
+    "name" : "amq.match",
+    "type" : "headers",
+    "lastUpdatedTime" : 1533819584055,
+    "createdTime" : 1533819584055
+  }, {
+    "id" : "d5f77b3c-aa54-4064-a2df-e7cbebe08844",
+    "name" : "amq.topic",
+    "type" : "topic",
+    "durableBindings" : [ {
+      "arguments" : { },
+      "bindingKey" : "dudu",
+      "destination" : "cyftest"
+    } ],
+    "lastUpdatedBy" : "guest",
+    "lastUpdatedTime" : 1533820665745,
+    "createdBy" : null,
+    "createdTime" : 1533819584055
+  } ],
+  "queues" : [ {
+    "id" : "9695dfff-fed6-45aa-bc2f-bc0e889a26ef",
+    "name" : "cyftest",
+    "type" : "standard",
+    "durable" : true,
+    "holdOnPublishEnabled" : false,
+    "owner" : null,
+    "lastUpdatedBy" : "guest",
+    "lastUpdatedTime" : 1533820651193,
+    "createdBy" : "guest",
+    "createdTime" : 1533820651193
+  } ]
+}
